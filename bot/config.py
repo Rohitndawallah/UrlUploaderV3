@@ -6,16 +6,16 @@ load_dotenv()
 
 class Config:
     # Bot API credentials
-    API_ID = int(os.environ.get("API_ID", "12345"))
-    API_HASH = os.environ.get("API_HASH", "your_api_hash")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")
+    API_ID = int(os.environ.get("API_ID", "24616136"))
+    API_HASH = os.environ.get("API_HASH", "2554bc329f42eb20b0d34bded2847e22")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8010012468:AAEyKReUIqYUTcDw2PjJN2Ayxybv4EV8y68")
     
     # MongoDB settings
-    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb://localhost:27017")
-    DATABASE_NAME = os.environ.get("DATABASE_NAME", "ytdl_bot")
+    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://pir0ffyt:tl5O2svxny5UxeBo@cluster0.lolf4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
     
     # Admin settings
-    ADMIN_IDS = [int(x) for x in os.environ.get("ADMIN_IDS", "123456789").split(",")]
+    ADMIN_IDS = [int(x) for x in os.environ.get("ADMIN_IDS", "7811043854").split(",")]
     
     # Download settings
     DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "downloads")
